@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 20-05-2025
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: VINOTHINI T
+###  ROLL NO : 212223040245
+###  DEPARTMENT: CSE
 
 
 
@@ -87,12 +87,23 @@ The main features of LPC2148 include the following.
 
 ## STM 32 CUBE PROGRAM :
 
+```
+while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+   HAL_Delay(1000);
+  }
+```
+
 
 
 
 
 ## OUTPUT  :
- 
+ ![image](https://github.com/user-attachments/assets/417107c8-914b-428b-9831-6c6bbc448e25)
+
  
  
  
